@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+  <meta charset="utf-8"/>
+  <style>
+  body {
+    background-color: Aliceblue;
+    font-family: arial;
+  }
+  #menu {
+    list-style-type: none;
+    overflow: hidden;
+  }
+  .barra {
+    margin-top: 10px;
+    margin: 1px;
+    padding: 5px;
+    float: right;
+    background-image: url(imagenes/tab.png);
+    border-radius: 5px;
+  }
+  .pestaña {
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+
+  a {
+    color: LawnGreen;
+  }
+  .amarillo {
+    color:Yellow;
+  }
+  .gris {
+    color:DarkSlateGrey;
+  }
+  section {
+    background-color: white;
+    float: left;
+    width: auto;
+    margin: auto;
+    text-align: justify;
+    margin-right: 300px;
+    height: 800px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius:15px;
+  }
+  aside {
+    background-color: white;
+    right: 0px;
+    position: absolute;
+    height: 800px;
+    float: right;
+    width: 250px;
+    margin-right:10px;
+    margin-top: 25px;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius:15px;
+  }
+  footer {
+    padding-bottom: 15px;
+    position: relative;
+    margin-top: 900px;
+    text-align: center;
+  }
+  </style>
+</head>
+<body>
+  <div style="background-image: url(imagenes/logo.png);padding:10px; background-size:
+  1300px 190px;border-bottom-left-radius:5px;border-bottom-right-radius:5px;">
+    <h1 style="color:white;">asignatura:<span class="amarillo">LENGUAJE DE
+      MARCAS</span></h1>
+    <h3 style="color:Aliceblue;">Página web de la asignatura</h3>
+    <nav>
+      <ul id="menu">
+        <li class="barra"><a href="#" class="pestaña">Contacto</a></li>
+        <li class="barra"><a href="#" class="pestaña">XML</a></li>
+        <li class="barra"><a href="#" class="pestaña">CSS</a></li>
+        <li class="barra"><a href="#" class="pestaña">HTML</a></li>
+        <li class="barra"><a href="#" class="pestaña">Home</a></li>
+      </ul>
+    </nav>
+  </div>
+  <section>
+    <h2 style="color:Crimson;">Introducción a la asignatura</h2>
+    <p>Un lenguaje de marcadado o lenguaje de marcas es una forma
+    de codificar un documento que, junto con el texto, incorpora
+    <a href="http://www.wordreference.com/definicion/etiqueta">etiquetas</a>
+    o marcas que contienen información
+    adicional acerca de la extructura del texto o su presentación.<br>
+    <br>
+    El lenguaje de marcas más extendido es el
+    <a href="https://es.wikipedia.org/wiki/HTML">HTML</a> (HyperText
+    Markup Lenguage, lenguaje de marcado de hipertexto), fundamento del World
+    Wide Web (entramado de comunicación de alcance mundial).<br>
+    <br>
+    Los lenguajes de marcado suelen confundirse con lenguajes de programación.
+    Sin embargo, no son lo mismo, ya que el lenguaje de marcado no tiene
+    funciones aritméticas o variables, como sí poseen los lenguajes de
+    programación. Históricamente, el marcado se usaba y se usa en la industria
+    editorial y de la comunicación, así como entre autores, editores e
+    impresores.
+      </p>
+      <h2 style="color:Crimson;">Temas a tratar</h2>
+      <p>Esto es lo que vamos a ver:</p>
+      <ul style="list-style-image:url(imagenes/bullet.png)">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>XML</li>
+        <li>OTO</li>
+        <li>otros...</li>
+      </ul>
+  </section>
+  <aside>
+      <h2>Noticias</h2>
+      <h3 style="color:Crimson;">Diseño de Páginas web con HTML5</h3>
+      <p><i>25 Octubre 2015</i></p>
+      <p>HTML5 Porque es la mejor opción en páginas web y diseño</p>
+      <p><a href="https://es.khanacademy.org/computing/computer-programming/html-css">
+        Leer más</a></p>
+      <h3 style="color:Crimson;">Document Cyborg</h3>
+      <p><i>5 Noviembre 2015</i></p>
+      <p>Herramienta para descargar los videos de una página web con un solo
+      clic</p>
+      <p><a href="https://www.softandapps.info/2016/09/21/document-cyborg-convierte-web-documento/">
+        Leer más</a></p>
+      <h2>Enlaces útiles</h2>
+      <ul style="list-style-image:url(imagenes/link.png)">
+        <li><a href="https://es.wikipedia.org/wiki/HTML5">HTML5</a></li>
+        <li><a href="https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada">
+          CSS</a></li>
+        <li><a href="https://es.wikipedia.org/wiki/Extensible_Markup_Language">
+          XML databasic</a></li>
+        <li><a href="https://es.wikipedia.org/wiki/Extensible_Stylesheet_Language">
+          XSL</a></li>
+      </ul>
+      <h2>Search</h2>
+      <form>
+        <input type="text" value="Buscar..." onfocus="if (this.value == 'Buscar...')
+        {this.value = '';}" onblur="if (this.value == '') {this.value = 'Buscar...';}" />
+        <input type="button" value="Ir" />
+      </form>
+  </aside>
+  <footer>COPYRIGHT HTML5+CSS3
+    <span class="gris">| HTML5 | CSS</span>
+  </footer>
+</body>
+</html>
